@@ -96,7 +96,7 @@
                 containerEl.addClass(options.selectingClass);
                 newdomElement.toggle();
             });
-            newdomElement.children().on('click', function(e) {
+            newdomElement.children().on('click touch', function(e) {
                 e.preventDefault();
                 containerEl.removeClass(options.selectingClass);
                 originalSelector.val($(this).data('value'));
