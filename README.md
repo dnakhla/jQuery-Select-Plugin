@@ -5,7 +5,8 @@ JQuery Select Fixer Plugin: http://ch.danielnakhla.com/
 
 jQuery plugin for mobile select tag fixing, also responsive
 <h2>usage</h2>
-<hr>
+<code> $(select_tag).selectFixer();</code>
+<h3>example</h3>
 <pre>
             $(document).ready(function() {
                 $('.select-fix').selectFixer();
