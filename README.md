@@ -3,7 +3,7 @@ jQuery-Select-Plugin
 
 JQuery Select Fixer Plugin: http://ch.danielnakhla.com/
 
-jQuery plugin for mobile select tag fixing, also responsive
+jQuery plugin a cross-browser/cross-device HTML drop-down menu
 <h2>usage</h2>
 <code> $(select_tag).selectFixer();</code>
 <h3>example</h3>
